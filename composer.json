@@ -1,0 +1,26 @@
+{
+    "name": "technobd/laravel-role",
+    "description": "It is the laravel Role and Permission management system.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Technobd\\Permission\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "tbd-faruk",
+            "email": "faruk@technobd.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Technobd\\Permission\\PermissionServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
